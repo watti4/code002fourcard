@@ -1,0 +1,148 @@
+
+*{margin: 0;
+   padding: 0;
+}
+body{
+    font-family: Poppins, sans-serif ;
+    width: 100%;
+}
+
+#top-content{
+     width: 100%;
+     margin-top: 40px;
+     text-align: center;
+}
+#top-content P{
+   font-size: 0.9em;
+   width: 30%;
+   margin-top: -8%;
+   margin-left: 35%;
+}
+
+.col{
+ 
+  margin-top: 30px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px 35px;
+  box-sizing: border-box;
+  box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2);
+}
+img{
+ width: 45px;
+ position: relative;
+ left: 85%;
+ padding: 13px 0;
+}
+
+#top-content h1{
+ padding-bottom: 9%;
+ font-size: 1.7em;
+ font-weight: 600;
+}
+
+h1{
+ font-weight: 600;
+ font-size: 1.3em;
+ padding: 13px 0;
+ color: hsl(234, 12%, 34%);
+}
+p{
+ color:hsl(229, 6%, 66%);
+ font-size: 0.8em;
+ margin-bottom: 40px;
+ line-height: 1.8;
+ font-weight: 200;
+}
+h2{
+ color: hsl(234, 12%, 34% );
+ font-size: 1.6em;
+ font-weight: 400;
+}
+
+#col-1{
+ border-top: solid 3px hsl(180, 62%, 55%);
+ position: relative;
+ top: 165px;
+ left: 110px;
+ width: 27%;
+ height: 230px;
+} 
+#col-2{
+border-top:solid 3px hsl(0, 78%, 62%);
+position: relative;
+left: 500px;
+bottom: 195px;
+width: 27%;
+height: 230px;
+} 
+#col-3{
+border-top: solid 3px hsl(34, 97%, 64%);
+position: relative;
+left: 502px;
+bottom: 200px;
+width: 27%;
+height: 230px;
+
+} 
+#col-4{
+border-top: solid 3px hsl(212, 86%, 64%);
+position: relative;
+left: 890px;
+bottom: 613px;
+width: 27%;
+height: 230px;
+
+} 
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+ 
+    body{
+    width: 100%;
+    }
+    #top-content P{
+      width: 75%;
+      margin: 2px auto;
+    }
+    #top-content h1{
+      padding-bottom: 25px;
+      font-size: 1.6em;
+      font-weight: 600;
+      width: 75%;
+      margin: 0 auto;
+     }
+
+    .col{
+      margin: 40px auto;
+      border-radius: 5px;
+      text-align: left;
+      padding: 10px 35px;
+      box-sizing: border-box;
+      box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2);
+    }
+    #col-1{
+      margin-top: 60px;
+      position:static;
+      width: 75%;
+    }
+    #col-2{
+      position: static;
+      width: 75%;
+    }
+    #col-3{
+      position: static;
+      width: 75%;
+    }
+    #col-4{
+      position: static;
+      width: 75%;
+    }
+
+}
