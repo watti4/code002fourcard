@@ -56,7 +56,7 @@ p{
 }
 h2{
  color: hsl(234, 12%, 34% );
- font-size: 1.7em;
+ font-size: 1.69em;
  font-weight: 400;
 }
 
@@ -114,7 +114,9 @@ height: 230px;
       font-weight: 600;
       margin: 0 auto;
      }
-
+     h2{
+      font-size: 1.6em;
+     }
     .col{
       margin: 40px auto;
       border-radius: 5px;
